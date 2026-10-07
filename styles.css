@@ -1,0 +1,51 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.has-drop-cap::first-letter {
+    initial-letter: 3;
+    color: gold;
+    margin-right: 10px;
+}
+
+.site-heading {
+    border-bottom: 1px solid rgb(183, 183, 183);
+    padding: 20px;
+}
+
+.by-line { 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link-line { 
+    color: rgb(0, 21, 255);
+}
+
+.blog-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    background-color: rgb(215, 215, 215);
+    margin: 0;
+    border-top: 5px solid gold;
+    font-size: 13px;
+    margin-top: -4px;
+    margin-bottom: 40px;
+    padding: 16px;
+    line-height: 1.5;
+}
+
+.site-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
